@@ -19,6 +19,9 @@ Este programa reproduce un video muchas veces, en ventanas que se mueven aleator
 - Las ventanas se mueven aleatoriamente por la pantalla.
 - Todas las ventanas se cierran automáticamente al finalizar el vídeo.
 ---
+# how to compile / Como Compilar
+
+pyinstaller --onefile --noconsole --icon=agarrini.ico --add-data "agarrini.mp4;." agarriniv2.py
 
 # Requirements / Requisitos
 
