@@ -7,7 +7,7 @@ from PyQt6.QtCore import QUrl, QTimer, Qt, QSize
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-VIDEO_PATH = os.path.join(BASE_DIR, "C:/Users/Astolfo-Lock/Pictures/Agarrini/Agarrini/agarrini.mp4") # video
+VIDEO_PATH = os.path.join(BASE_DIR, "agarrini.mp4") # video
 INSTANCES = 5 # ventanas
 
 class VideoWindow(QWidget):
